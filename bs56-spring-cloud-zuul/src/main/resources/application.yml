@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: bs56-spring-cloud-zuul
+
+server:
+  port: 8769
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.2.87:8761/eureka/
+
+zuul:
+  routes:
+    admin-8764:
+      path: /api/admin-8764/**   #请求的路径
+      serviceId: bs56-spring-cloud-admin-ribbon   #路由到对于的服务，该名字是spring.appliction.name
+    admin-8765:
+      path: /api/admin-8765/**
+      serviceId: bs56-spring-cloud-admin-feign

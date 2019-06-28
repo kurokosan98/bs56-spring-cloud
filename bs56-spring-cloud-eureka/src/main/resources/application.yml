@@ -1,0 +1,21 @@
+#########配置服务的名称##############
+spring:
+  application:
+    name: bs56-spring-cloud-eureka-server
+
+
+#########配置服务的端口##############
+server:
+  port: 8761
+
+
+##########eureka的配置################
+eureka:
+  instance:
+    hostname: 192.168.2.87    # eureka服务的布置地址
+    prefer-ip-address: true
+  client:
+    registerWithEureka: false   # 表明自己是个注册中心，不需要注册自己
+    fetchRegistry: false    # 是否检索服务
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/   # eureka的访问地址

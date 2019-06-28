@@ -1,0 +1,20 @@
+#########配置服务的名称##############
+spring:
+  application:
+    name: bs56-spring-cloud-admin
+
+
+#########配置服务的端口##############
+server:
+  port: 8763
+
+
+
+##########eureka的配置################
+eureka:
+  instance:
+    prefer-ip-address: true       #以ip地址注册到服务中心  方便追溯服务
+  client:
+    serviceUrl:
+      # 服务注册到哪个路径下
+      defaultZone: http://192.168.2.87:8761/eureka/

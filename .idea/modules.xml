@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bs56-spring-cloud.iml" filepath="$PROJECT_DIR$/.idea/bs56-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-admin/bs56-spring-cloud-admin.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-admin/bs56-spring-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-admin-feign/bs56-spring-cloud-admin-feign.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-admin-feign/bs56-spring-cloud-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-admin-ribbon/bs56-spring-cloud-admin-ribbon.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-admin-ribbon/bs56-spring-cloud-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-dependencies/bs56-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-dependencies/bs56-spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-eureka/bs56-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-eureka/bs56-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bs56-spring-cloud-zuul/bs56-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/bs56-spring-cloud-zuul/bs56-spring-cloud-zuul.iml" />
+    </modules>
+  </component>
+</project>
